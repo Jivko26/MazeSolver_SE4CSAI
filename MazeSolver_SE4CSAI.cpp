@@ -80,7 +80,7 @@ bool isGameOver(const Agent& agent, const vector<vector<int>>& maze) {
 
 
 int main() {
-    string filename = "maze_prod.txt"; 
+    string filename = "maze_dev.txt"; 
 
     vector<vector<int>> mazeGrid = readMazeFromFile(filename); 
 
